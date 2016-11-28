@@ -1,0 +1,85 @@
+// Font weights
+$font-weight__light: 300;
+$font-weight__bold: 700;
+
+// Base Font
+$font-family: 'Open Sans', sans-serif;
+$font-size__xl: 3.9rem;
+$font-size__l: 1.8rem;
+$font-size__m: 1.5rem;
+$font-size__s: 1.2rem;
+
+
+// Color
+$color-white: #fbfbfb;
+$color-red: #C80D7F;
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	text-rendering: optimizelegibility;
+}
+
+body {
+	font-family: $font-family;
+	font-weight: $font-weight__light;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+.button {
+	font-size: $font-size__l;
+	font-weight: $font-weight__bold;
+	display: inline-block;
+	border-radius: 1px;
+	border: 2px solid $color-white;
+	color: $color-white;
+	text-decoration: none;
+
+	&__s {
+		line-height: 2.3;
+		padding: 0 22px;
+		height: 44px;
+	}
+}
+
+.invisible-xs {
+    display: none;
+    visibility: hidden;
+}
+
+.visible-xs {
+    display: block;
+    visibility: visible;
+
+    &.button {
+    	display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 48rem) {
+	body {
+		font-size: $font-size__m;
+	}
+
+	.invisible-md {
+	    display: none;
+	    visibility: hidden;
+	}
+
+	.visible-md {
+	    display: block;
+	    visibility: visible;
+
+	    &.button {
+	    	display: inline-block;
+	    }
+	}
+}
