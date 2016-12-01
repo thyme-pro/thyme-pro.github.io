@@ -1,0 +1,26 @@
+{
+  "name": "thyme.pro",
+  "version": "1.0.0",
+  "description": "Landingpage for Thyme tracking tool",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thyme-pro/thyme-pro.github.io.git"
+  },
+  "keywords": [
+    "Landingpage"
+  ],
+  "author": "Andreas Schneider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thyme-pro/thyme-pro.github.io/issues"
+  },
+  "homepage": "https://github.com/thyme-pro/thyme-pro.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.9.1",
+    "pump": "^1.0.1"
+  }
+}
